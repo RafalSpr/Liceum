@@ -1,0 +1,94 @@
+﻿IdTransakcji;DataTransakcji;Reprezentant;Odbiorca;CenaNetto
+68;2019-01-04;Stefan;"Teatr kukiełkowy ""La-La""";869
+46;2019-01-07;Damian;Nowomiejski Instytut Sztuki;3456
+10;2019-01-10;Rita;Bezpieczne zabawki;1941
+61;2019-01-10;Rita;Sklep Zdrowa Żywność;1381
+28;2019-01-11;Damian;"Kawiarnia ""Espresso""";1479
+58;2019-01-11;Damian;Salomon - Import - Eksport;3126.32
+32;2019-01-15;Damian;"Kawiarnia ""Mała czarna""";1381
+49;2019-01-16;Damian;Pacyfik - Instrumenty muzyczne;2838
+51;2019-01-21;Damian;Pacyfik - Instrumenty muzyczne;2620
+5;2019-01-22;Rita;Anemon - kwiaciarnia;3460.48
+33;2019-01-23;Damian;"Kawiarnia ""Mała czarna""";1945.28
+74;2019-01-23;Damian;"Winiarnia ""Przyjaciele""";1884
+19;2019-01-25;Rita;Elektrociepłownia ;1949
+82;2019-02-01;Stefan;Wulkan - kawa i herbata;1949
+93;2019-02-10;Stefan;Wydawnictwo Wigor;357
+12;2019-02-11;Rita;Bezpieczne zabawki;956
+37;2019-02-12;Damian;Kwadro - herbaciarnia;8626.2
+40;2019-02-18;Stefan;Margo - import kawy i herbaty;1949
+67;2019-02-19;Stefan;"Teatr kukiełkowy ""La-La""";1735.96
+79;2019-02-27;Rita;Winnica Dudzin;1865
+54;2019-02-28;Damian;"Piwnice ""U Romana""";1941
+27;2019-03-16;Stefan;Instytut Sztuki;3126.32
+92;2019-03-16;Stefan;Wydawnictwo Wigor;2017
+87;2019-03-18;Stefan;Wydawnictwo JAK;1314
+77;2019-03-19;Rita;Winnica Czajkowo;2434
+55;2019-03-25;Rita;Pylon - korporacja ubezpieczeniowa;3261
+89;2019-03-26;Rita;Wydawnictwo Ramona;3150
+8;2019-04-01;Rita;Astro - Rowery górskie;1949
+78;2019-04-03;Rita;Winnica Czajkowo;1945.28
+35;2019-04-04;Damian;Korporacja A. Datum;1482
+13;2019-04-07;Rita;Biuro podróży Blue Sky ;1390.8
+62;2019-04-07;Rita;Sklep Zdrowa Żywność;1134.16
+42;2019-04-08;Stefan;Margo - import kawy i herbaty;591
+34;2019-04-09;Damian;Korporacja A. Datum;9060.48
+85;2019-04-09;Stefan;Wydawnictwo JAK;3116
+56;2019-04-12;Rita;Pylon - korporacja ubezpieczeniowa;946
+21;2019-04-18;Rita;Elektrociepłownia ;1949
+59;2019-04-18;Damian;Salomon - Import - Eksport;2925
+4;2019-04-19;Rita;Anemon - kwiaciarnia;3134.16
+65;2019-04-20;Damian;Słonik - Zabawki ;3184
+15;2019-04-22;Rita;Biuro podróży Blue Sky ;5950.2
+43;2019-04-22;Damian;Muzeum techniki;2238
+60;2019-04-24;Damian;Salomon - Import - Eksport;1390.32
+69;2019-05-01;Stefan;"Teatr kukiełkowy ""La-La""";1949
+38;2019-05-04;Damian;Kwadro - herbaciarnia;1941
+47;2019-05-26;Damian;Nowomiejski Instytut Sztuki;8626.2
+44;2019-06-06;Damian;Muzeum techniki;5950.2
+6;2019-06-25;Rita;Anemon - kwiaciarnia;555
+18;2019-06-26;Stefan;"Dom wczasowy ""Czarci Jar""";3126.32
+73;2019-06-26;Damian;"Winiarnia ""Przyjaciele""";3134.16
+17;2019-07-01;Stefan;"Dom wczasowy ""Czarci Jar""";2560
+76;2019-07-01;Rita;Winnica Czajkowo;5950.2
+64;2019-07-08;Damian;Słonik - Zabawki ;1954
+90;2019-07-09;Rita;Wydawnictwo Ramona;3193
+1;2019-07-22;Stefan;Alpy - Sprzęt narciarski ;11
+7;2019-07-22;Rita;Astro - Rowery górskie;1945.76
+23;2019-07-25;Stefan;F.H. Patrycja;3126.32
+25;2019-08-04;Stefan;Instytut Sztuki;2877
+14;2019-08-07;Rita;Biuro podróży Blue Sky ;1588.72
+41;2019-08-11;Stefan;Margo - import kawy i herbaty;1595.92
+86;2019-08-11;Stefan;Wydawnictwo JAK;1994
+63;2019-08-16;Rita;Sklep Zdrowa Żywność;3139
+53;2019-08-18;Damian;"Piwnice ""U Romana""";3157.8
+9;2019-08-20;Rita;Astro - Rowery górskie;1390.32
+72;2019-08-26;Rita;Teatr Małego Widza;1556
+70;2019-08-27;Rita;Teatr Małego Widza;2726
+83;2019-09-02;Stefan;Wulkan - kawa i herbata;346
+75;2019-09-05;Damian;"Winiarnia ""Przyjaciele""";1381
+30;2019-09-09;Damian;"Kawiarnia ""Espresso""";3134.16
+3;2019-09-22;Stefan;Alpy - Sprzęt narciarski ;1847
+57;2019-09-23;Rita;Pylon - korporacja ubezpieczeniowa;1735.96
+81;2019-09-24;Rita;Winnica Dudzin;1950.2
+66;2019-09-26;Damian;Słonik - Zabawki ;2411
+26;2019-10-13;Stefan;Instytut Sztuki;1850
+31;2019-10-14;Damian;"Kawiarnia ""Mała czarna""";1595.92
+22;2019-10-17;Stefan;F.H. Patrycja;1395.92
+16;2019-10-23;Stefan;"Dom wczasowy ""Czarci Jar""";1917
+71;2019-10-23;Rita;Teatr Małego Widza;182
+84;2019-10-26;Stefan;Wulkan - kawa i herbata;1595.92
+2;2019-10-27;Stefan;Alpy - Sprzęt narciarski ;13911.32
+11;2019-10-28;Rita;Bezpieczne zabawki;1962
+20;2019-11-09;Rita;Elektrociepłownia ;1350
+88;2019-11-15;Rita;Wydawnictwo Ramona;6575.56
+50;2019-11-21;Damian;Pacyfik - Instrumenty muzyczne;1134.16
+80;2019-12-04;Rita;Winnica Dudzin;1371.8
+91;2019-12-05;Stefan;Wydawnictwo Wigor;1604
+48;2019-12-10;Damian;Nowomiejski Instytut Sztuki;1945.28
+45;2019-12-15;Damian;Muzeum techniki;1993
+29;2019-12-20;Damian;"Kawiarnia ""Espresso""";31
+24;2019-12-21;Stefan;F.H. Patrycja;1949
+39;2019-12-21;Damian;Kwadro - herbaciarnia;6575.56
+52;2019-12-23;Damian;"Piwnice ""U Romana""";1371.8
+36;2019-12-24;Damian;Korporacja A. Datum;1945.28
