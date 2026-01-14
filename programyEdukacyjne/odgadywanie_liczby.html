@@ -1,0 +1,74 @@
+<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- ;
+
+var ile=0;
+var guessme=Math.round(Math.random()*(1023)+1);
+var speech='Odgadnij liczbę z przedziału (1-1024)';
+
+function process(mystery) {
+var guess=document.forms.guessquiz.guess.value;
+var speech='"'+guess+ '" nie ma sensu';
+document.forms.guessquiz.guess.value='';
+
+if (guess==mystery)
+{
+document.forms.guessquiz.prompt.value='Gratuluję! '+mystery+' - odgadłeś!';
+alert ('Gratuluję! Szukaną liczbą jest: '+mystery+'! \n\n Odgadłeś w: '+ile+ ' próbach.');
+speech='';
+document.location=document.location;
+}
+
+if (mystery<guess)
+{
+speech=guess +'- za dużo';
+ile++;
+}
+
+if (mystery>guess)
+{
+speech= guess +'- za mało';
+ile++;
+}
+
+if (guess=='')
+{
+speech='Zgaduj liczbę!!'
+}
+
+document.forms.guessquiz.prompt.value=speech; document.forms.guessquiz.guess.focus();
+
+}
+
+// end hide -->
+</SCRIPT>
+<body bgcolor="green">
+
+<h1 STYLE="border: red solid 2px; background: orange; color: white; text-align: center">GRA W ZGADYWANIE LICZBY</h1>
+<br>
+<FORM onSubmit="" NAME="guessquiz">
+<CENTER>
+<TABLE ALIGN="CENTER" BGCOLOR="#888888" BORDER="3" CELLPADDING="5">
+<TR>
+<TD BGCOLOR="#004080">
+<FONT COLOR="#ffffff" FACE="Arial"><B>Odgadnij liczbe z przedziału (1 - 1024)</B></FONT>
+</TD>
+</TR>
+<TR>
+<TD>
+<CENTER>
+<INPUT TYPE="text" NAME="prompt" SIZE="31" MAXLENGTH="40" VALUE="" readonly style="background: yellow"><BR>
+<br>
+<INPUT TYPE="text" NAME="guess" SIZE="4" MAXLENGTH="4" VALUE="">
+<INPUT TYPE="button" VALUE="Zgaduję" onClick='process(guessme)'>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</FORM>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<html>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<META HTTP-EQUIV="Content-Language" CONTENT="pl">
+<SCRIPT LANGUAGE="JavaScript">
+<!-- ;
+
+var ile=0;
+var guessme=21;
+var speech='' ;
+var pom=0;
+function wyswietl(){
+  document.forms.guessquiz.prompt.value='Na stole leży '+guessme+' kamyków(i)';
+}
+function process() {
+var i;
+//for (i=1;i<=guessme;i++) {document.write('<img src=kamyk_zielony.jpg>');}
+var guess=document.forms.guessquiz.guess.value;
+var speech='Na stole leży '+guessme+' kamyków(i)' ;
+document.forms.guessquiz.guess.value='';
+
+if (guess<1 || guess>3 ||isNaN(guess))
+{
+
+speech='Błędna wartość';
+}
+else {
+ guessme=guessme-guess;
+ if (guessme==0)
+{
+  document.forms.guessquiz.prompt.value='Gratuluję!';
+  alert ('Gratuluję! Wygrałeś ze mną');
+  speech='';
+  document.location=document.location;
+}
+else{
+ pom=guessme%4;
+ if (pom==0) pom=Math.round(Math.random()*(2)+1);
+ alert('Ja biorę '+pom+' kamyk(i)');
+  guessme=guessme-pom;
+
+	speech='Na stole leży '+guessme+' kamyków(i)' ;
+ if (guessme==0) {
+  alert('Wygrałem ja, Twój komputer');
+  speech='';
+  document.location=document.location;}
+  }
+}
+
+
+
+
+document.forms.guessquiz.prompt.value=speech; document.forms.guessquiz.guess.focus();
+
+}
+
+// end hide -->
+</SCRIPT>
+<body bgcolor="green"  onload='wyswietl()'>
+
+<h1 STYLE="border: red solid 2px; background: orange; color: white; text-align: center">GRA W KAMIENIE</h1>
+<br>
+<FORM onSubmit="" NAME="guessquiz">
+<CENTER>
+<TABLE ALIGN="CENTER" BGCOLOR="#888888" BORDER="3" CELLPADDING="5" >
+<TR>
+<TD BGCOLOR="#004080">
+<FONT COLOR="#ffffff" FACE="Arial"><B>Na stole leżą kamienie. Każdy z graczy zabiera co najmniej 1 i conajwyżej 3 kamienie. Wygrywa ten, który ostatni zabierze kamienie ze stołu.<br>Dam Ci szanse TY rozpoczynij. </B></FONT>
+</TD>
+</TR>
+<TR>
+<TD>
+<CENTER>
+<INPUT TYPE="text" NAME="prompt" SIZE="31" MAXLENGTH="40" VALUE="" readonly style="background: yellow"><BR>
+<br>
+<INPUT TYPE="text" NAME="guess" SIZE="2" MAXLENGTH="2" VALUE="">
+<INPUT TYPE="button" VALUE="Biorę" onClick='process()'>
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+
+<img src="kamyki.jpg">
+</CENTER>
+</FORM>
+
+</body>
+</html>
